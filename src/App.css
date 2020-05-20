@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body{
+    text-align: center;
+    background: lightyellow;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#itens-lista-form button {
+    background: rgb(243, 155, 83);
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 0;
+    position: absolute;
+    right: 20px;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app-title{
+    text-align: center;
+    color: rgb(243, 155, 83);
+    font-weight: lighter;
+    font-size: 60px;
+}
+.container{
+    align-items: center;
+    border: 7px solid rgba(247, 220, 67, 0.541);
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.container2{
+    align-items: center;
+    border: 5px solid rgba(247, 184, 67, 0.541);
+    border-radius: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+#to-do-form input{
+  background-color: rgb(255, 229, 159);
+  border: 0;
+  width: 200px;
+  height: 45px;
+  padding: 0 20px;
+  margin: 10px;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+#to-do-form button{
+  border: 0;
+  height: 37px;
+  width: 60px;
+  border-radius: 4px;
+  background-color: rgba(243, 155, 83, 0.671);
+  cursor: pointer;
+  font-weight: bolder;
+}
+#itens-lista-form li{
+  position: relative;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: rgb(248, 172, 109);
+  text-align: left center;
+  padding-top: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 5px 5px 5px;
+  margin: 20px auto;
+  border-radius: 5px;
 }
