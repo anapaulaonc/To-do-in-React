@@ -137,13 +137,16 @@ class App extends React.Component{
             {this.state.list.map(item => {
               return (
                 <form id="itens-lista-form">
-                  <li key={item.id}>
+                  <p key={item.id}>
                   {item.value}
                     <button className="btn btn-floating" onClick={() => this.deleteItem(item.id)}>
                       <i class="material-icons">x</i>
                     </button>
-                </li>
+                  
+              
+                </p>
                 </form>
+               
               );
             })}
           </ul>
