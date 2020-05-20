@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background: lightyellow;
+    background: rgb(43, 42, 42);
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
@@ -18,27 +18,25 @@ body{
 
 .app-title{
     text-align: center;
-    color: rgb(243, 155, 83);
+    color: rgb(83, 228, 160);
     font-weight: lighter;
     font-size: 60px;
 }
 .container{
     align-items: center;
-    border: 7px solid rgba(247, 220, 67, 0.541);
-    border-radius: 25px;
+    background-color: rgb(95, 93, 93);
     margin-left: 20%;
     margin-right: 20%;
 }
 .container2{
     align-items: center;
-    border: 5px solid rgba(247, 184, 67, 0.541);
+    border: 5px solid rgb(83, 228, 160);
     border-radius: 25px;
     margin-left: 20%;
     margin-right: 20%;
     padding: 20px;
 }
 #to-do-form input{
-  background-color: rgb(255, 229, 159);
   border: 0;
   width: 200px;
   height: 45px;
